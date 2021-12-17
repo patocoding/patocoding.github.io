@@ -1,0 +1,342 @@
+body{
+width: 100%;
+height: 100%;
+margin: 0 auto;
+background: rgb(0, 0, 0);
+}
+
+.menu-principal{
+width: 100%;
+background-color: #470081;
+height: 80px;
+}
+
+
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0px!important;
+}
+
+main, .content{
+margin: 0 auto;
+width: 980px;
+position: relative;
+}
+
+.logo{
+padding-top: 20px;
+float: left;
+width: 35%
+}
+
+.redes-sociais ul li{
+display: inline-block;
+float: left;
+list-style: none;
+margin-left: 17px;
+}
+
+.redes-sociais ul li:hover{
+    color: turquoise;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+    padding: 7px;
+}
+
+
+.header-2{
+    color: rgb(255, 255, 255); 
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.menu-urls{
+    border-bottom: 3px solid #ebe6e6;
+    height: 80px;
+    
+}
+
+
+.menu ul li{
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    margin-left: 8px;
+    height: 48px;
+}
+
+.menu ul li a:hover{
+    color: turquoise;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px solid turquoise;
+}
+
+.menu ul li a{
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Roboto;
+}
+
+
+.menu{
+    width: 70%;
+    float: left;
+
+}
+
+.buscador{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.buscador input{
+    background: url('../img/lupinha.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin-top:10px;
+    height: 36px;
+    padding: 12px;
+    width: 190px;
+    border: 1px solid rgb(163, 163, 163);
+}
+
+.col-100{
+    width: 100%;
+    float:left;
+}
+
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 51px;
+    background-image: url('../img/previous.png');
+    top:40%;
+    position: absolute;
+    z-index: 9;
+    left: 10%;
+}
+
+button.slick-next{
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 48px;
+    background-image: url('../img/next.png');
+    top:40%;
+    position: absolute;
+    z-index: 9;
+    right: 10%;
+    transition: all .5s ease-in-out;
+}
+
+.crypto{
+    
+    text-transform: capitalize;
+}
+
+button.slick-next:hover{
+    cursor: pointer;
+    width: 60px;
+}
+
+button.slick-prev:hover{
+    cursor: pointer;
+}
+
+
+.slick-dots li button{
+    font-size: 0;
+    border: 5px solid white;
+    border-radius: 50%;
+    background: transparent;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.slick-dots li{
+    display:inline-block;
+    padding-left: 10px;
+}
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 90%;
+}
+
+li.slick-active button{
+    background-color: lightseagreen;
+}
+
+
+.texto-destaque h1{
+    color: rgb(47, 88, 6);
+    font-family: 'Bakbak One';
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.texto-destaque strong{
+    color:rgb(160, 64, 34)
+}
+
+.texto-destaque{
+    text-align: center;
+    
+}
+
+
+.texto-destaque p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.col3{
+    width: 25%;
+    float:left;
+    position: relative;
+    text-align: center;
+    padding-left: 2.8em;
+    padding-right: 15px;
+    margin-left: 25px;
+    transition: all .5s ease-out;
+}
+
+.col3:hover{
+    width: 400px;
+    overflow: hidden;
+}
+
+.col5{
+    width: 25%;
+    float:left;
+    position: relative;
+    text-align: center;
+    padding-right: 15px;
+    padding: 15px;
+    margin-left: 25px;
+}
+
+
+.bloco-texto{
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+h3{
+    font-weight: normal!important;
+}
+
+.htextos{
+    text-transform: capitalize;
+    background-color: rgb(143, 62, 219);
+    font-family: 'Bakbak One', cursive;
+    margin: 0;
+    padding: 10px;
+}
+
+.ptextos{
+    background-color: rgba(0, 94, 81, 0.993);
+    font-family: fantasy;
+    padding: 15px;
+    margin: 0;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20% ;
+    font-family: monospace;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+}
+
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #ffe600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    right: 10em;
+    background: rgb(0, 0, 68);
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+.bloco-imagem b, p {
+    color: rgb(255, 242, 242);
+    font-family: sans-serif;
+}
+
+
+h3 {
+    font-weight: normal!important;
+}
+
+
+
+
+.bloco-imagens-texto {
+    background-color: #280863;
+}
+.bloco-imagens-texto:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: #ffe600;
+    display: block;
+    float: right;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.col-4 img {
+cursor: pointer;
+ margin: 0 auto;
+ padding-top: 1em;
+ vertical-align: middle;
+}
+.col-4 img:hover {
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos {
+    height: 170px;
+}
+
+.bloco-logos img {
+    margin-top: 50px;
+}
+
+
+.crypto{
+    font-family: 'bakbak one';
+}
